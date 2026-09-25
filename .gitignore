@@ -24,6 +24,10 @@ Thumbs.db
 ~$*.xlsx
 ~$*.pptx
 
+# Source documents excluded from delivery
+postgresql/documentacion/Infraestructura_Samuel_Parra.docx
+postgresql/documentacion/Interaccion_IA.docx
+
 # Temporary directories
 tmp/
 temp/

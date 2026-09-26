@@ -1,1 +1,33 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Database and local backup artifacts
+*.dump
+*.backup
+*.bak
+*.log
+
+# Operating systems and editors
 .DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Temporary office files
+~$*.docx
+~$*.xlsx
+~$*.pptx
+
+# Source documents excluded from delivery
+postgresql/documentacion/Infraestructura_Samuel_Parra.docx
+postgresql/documentacion/Interaccion_IA.docx
+
+# Temporary directories
+tmp/
+temp/
